@@ -1,0 +1,68 @@
+ 
+
+body{
+    border:4px solid white;
+	background-color:black;
+    -moz-border-radius-topleft:50%;
+    -webkit-border-top-left-radius:50px;
+	-webkit-border-top-right-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+
+}
+
+a{
+  text-decoration:none;
+}
+input{
+   width:160px;
+    position:relative;
+	float:left;
+	list-style-type:none;
+	font-size:25px;
+	background:#f5bad7;
+	border:1px solid #b11632;
+	padding:10px;
+	margin-left:240px;
+	margin-right:40px;
+	margin-bottom:30px;
+	margin-top:60px;
+	text-align: center;
+	background: -webkit-gradient(
+	linear, left top, right bottom,
+	color-stop(15%, pink), color-stop(50%, white),
+	color-stop(75%, pink) );
+	background: -moz-linear-gradient(
+	top left, pink 15%, white 50%, pink 75% );
+	background: linear-gradient(
+	45deg, pink 15%, white 50%, pink 75% );
+}
+
+input:hover{
+	background:#b49bb5;
+	color: #b11632;
+	padding:8px;
+	background: -webkit-gradient(
+    linear, left top, right bottom,
+	color-stop(15%, plum), color-stop(50%, white),
+	color-stop(75%, plum) );
+	background: -moz-linear-gradient(
+	top left, plum 15%, white 50%, plum 75% );
+	background: linear-gradient(
+	45deg, plum 15%, white 50%, plum 75% );
+}
+marquee{
+	border:2px solid #b11632;
+	font-size:35px;
+	margin-top:6px;
+	background: -webkit-gradient(
+    linear, left top, right bottom,
+	color-stop(15%, plum), color-stop(50%, white),
+	color-stop(75%, plum) );
+	background: -moz-linear-gradient(
+	top left, plum 15%, white 50%, plum 75% );
+	background: linear-gradient(
+	45deg, plum 15%, white 50%, plum 75% );
+	margin:70px;
+	
+	}

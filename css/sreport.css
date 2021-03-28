@@ -1,0 +1,110 @@
+ 
+ .rounded {
+  border-radius: 0.25rem !important;
+}
+ 
+.fas{
+	font-weight:900
+	}
+
+.fa-angle-up:before
+	{
+		content:"\f106"
+	}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 46px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+.smaller {
+  font-size: 0.7rem;
+} 
+
+
+h2{
+background-color:#9c8d8d; 
+border: 2px solid #b11632;
+align:right ;
+height:100px;
+background: -webkit-gradient(
+linear, left top, right bottom,
+color-stop(15%, gray), color-stop(50%, white),
+color-stop(75%, gray) );
+background: -moz-linear-gradient(
+top left, gray 15%, white 50%, gray 75% );
+background: linear-gradient(
+45deg, gray 15%, white 50%, gray 75% );
+ 
+}
+	 
+	 .flexbox
+	 {
+		 width: 800px;
+		 height: 1500px;
+		display: -webkit-box;
+		display: box;
+		-webkit-box-orient: horizontal;
+		box-orient: horizontal;
+	}
+
+	.flexbox > div
+	{
+		-webkit-transition: 1s ease-out;
+		transition: 1s ease-out;
+		-webkit-border-radius: 10px;
+		 border-radius: 10px;
+		 border: 2px solid black;
+		 width: 220px;
+		 hight:1000px;
+		 margin: -100px -100px -3000px 200px;
+		 padding: 20px 130px 20px 20px;
+		 box-shadow: 10px 10px 10px dimgrey;
+	 }
+		.flexbox > div:nth-child(1){ background-color:#555566; }
+		.flexbox > div:nth-child(2){ background-color:#665555; }
+		.flexbox > div:nth-child(3){ background-color:#556655; }
+		.flexbox > div:hover {
+				 width: 500px; color: white; font-weight: bold; 
+				  }
+		.flexbox > div:nth-child(1):hover { background-color:#333344; }
+		.flexbox > div:nth-child(2):hover { background-color:#443333; }
+		.flexbox > div:nth-child(3):hover { background-color: #334433; }
+
+	 p {
+		 height: 1000px;
+		 overflow: hidden;
+		 font-family: "Rosario" ;
+	 }
+
+	 img
+	 {
+		margin: 80px;
+		-webkit-transition: -webkit-transform 4s;
+		-moz-transition: -moz-transform 4s;
+		-o-transition: -o-transform 4s;
+		transition: transform 4s;
+
+	 }
+	  
+

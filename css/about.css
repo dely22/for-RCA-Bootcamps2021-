@@ -1,0 +1,118 @@
+ 
+@s-resize{
+	 h1{
+	padding:1%;
+	
+	
+	}
+	
+ p{
+	padding:2%;
+	
+}
+ .main{
+    direction:rtl;
+     margin:0 auto;
+	 border: 3px solid plum;
+	 width: 97%;
+	 margin-right:5%;
+	 margin-top:5%;
+     padding:5%;
+	
+	 margin:5px;
+ }
+ marquee{
+	border:2px solid #b11632;
+	font-size:30px;
+	margin-top:1%;
+	
+	
+	}
+body{
+	
+	  width:95%;
+	 height:100%;
+	 padding:2%;
+	 margin:3%;
+	 margin-right:4%;
+	 
+}
+	
+}
+ @n-resize{
+	 
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ h1{
+	padding:1%;
+	color:red;
+	font-family:"Times New Roman",Times,Serif;
+	font-size:36px;
+	font-weight:bold;
+	text-shadow::#bbccbb 2px 2px;
+	}
+	
+ p{
+	
+	padding:2%;
+	font-family:"Times New Roman",Times,Serif;
+	font-size:35px;
+	color:rgb(97, 29, 58);
+}
+ .main{
+    direction:rtl;
+     margin:0 auto;
+	 border: 3px solid plum;
+	 width: 97%;
+	 margin-right:5%;
+	 margin-top:5%;
+     padding:7px;
+	 background: -webkit-gradient(
+	linear, left top, right bottom,
+	color-stop(15%, pink), color-stop(50%, white),
+	color-stop(75%, pink) );
+	background: -moz-linear-gradient(
+	top left, pink 15%, white 50%, pink 75% );
+	background: linear-gradient(
+	45deg, pink 15%, white 50%, pink 75% );
+	 -webkit-border-top-left-radius:50px;
+	-webkit-border-top-right-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+	 margin:5px;
+ }
+ marquee{
+	border:2px solid #b11632;
+	font-size:30px;
+	margin-top:1%;
+	background: -webkit-gradient(
+    linear, left top, right bottom,
+	color-stop(15%, plum), color-stop(50%, white),
+	color-stop(75%, plum) );
+	background: -moz-linear-gradient(
+	top left, plum 15%, white 50%, plum 75% );
+	background: linear-gradient(
+	45deg, plum 15%, white 50%, plum 75% );
+	
+	}
+body{
+	border:5px solid pink;
+	background-color:black;
+    -moz-border-radius-topleft:50%;
+    -webkit-border-top-left-radius:50px;
+	-webkit-border-top-right-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+	  width:95%;
+	 height:100%;
+	 padding:2%;
+	 margin:3%;
+	 margin-right:4%;
+	 
+}

@@ -1,0 +1,116 @@
+
+ body{
+	margin:0;
+	padding : 0;
+	background-size :cover;
+	background-position:center;
+	font-family:sans-serif;
+	
+}
+
+ 	
+
+	 img {
+	 width:100px;
+	 height:120px;
+	 left:300px;
+	 z-index: 2 ;
+	 float: left;
+	 margin-top:40px;
+	 margin-left:10px
+	 
+	 }
+ 
+	
+	.B{
+	FONT-FAMILY: Tahoma, Arial, MS Sans Serif; FONT-SIZE: 11px;
+	COLOR:#FFFFCC;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: center
+	}
+
+	 
+h2{
+background-color:#9c8d8d; 
+border: 2px solid #b11632;
+align:right ;
+height:100px;
+background: -webkit-gradient(
+linear, left top, right bottom,
+color-stop(15%, gray), color-stop(50%, white),
+color-stop(75%, gray) );
+background: -moz-linear-gradient(
+top left, gray 15%, white 50%, gray 75% );
+background: linear-gradient(
+45deg, gray 15%, white 50%, gray 75% );
+}
+ 
+	
+	 .flexbox
+	 {
+	 width: 500px;
+	 height: 520px;
+	display: -webkit-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+	}
+	.flexbox > div
+	{
+	-webkit-transition: 1s ease-out;
+	transition: 1s ease-out;
+	-webkit-border-radius: 10px;
+	 border-radius: 10px;
+	 border: 2px solid black;
+	 width: 300px;
+	 hight:800px;
+	 margin: 100px -100px -0.50px 100px;
+	 padding: 0px 0px 0px 0px;
+	 box-shadow: 10px 10px 10px dimgrey;
+	  
+	 }
+	 
+	.flexbox > div:nth-child(1){ background-color: lightgrey; }
+	.flexbox > div:nth-child(2){ background-color: lightgrey; }
+	.flexbox > div:nth-child(3){ background-color: lightgrey; }
+	.flexbox > div:nth-child(4){ background-color: lightgrey; }
+	.flexbox > div:nth-child(5){ background-color: lightgrey; }
+	.flexbox > div:nth-child(6){ background-color: lightgrey; }
+	.flexbox > div:nth-child(7){ background-color: lightgrey; }
+	.flexbox > div:hover {width:650px;height:1000;color:white;font-weight:bold;}
+	
+	.flexbox > div:nth-child(1):hover {background:-webkit-radial-gradient(center,black,black,black,pink); }
+		
+	.flexbox > div:nth-child(2):hover { background:-webkit-radial-gradient(center,black,black,black,#c5c4debd); }
+	.flexbox > div:nth-child(3):hover { background:-webkit-radial-gradient(center,black,black,black,#859e8b); }
+	.flexbox > div:nth-child(4):hover { background:-webkit-radial-gradient(center,black,black,black,#c5c4debd);}
+	.flexbox > div:nth-child(5):hover {background:-webkit-radial-gradient(center,black,black,black,pink); }
+	.flexbox > div:nth-child(6):hover {background:-webkit-radial-gradient(center,black,black,black, #87b7b9db); }
+	.flexbox > div:nth-child(7):hover { background:-webkit-radial-gradient(center,black,black,black, #99b39bdb); }
+	
+	p {
+	height: 385px;
+	overflow: hidden;
+	font-family:Rosario;
+	direction:rtl;
+	line-height:30px;
+	text-align:center;
+	padding:10px;
+	}
+
+	 .r
+	 {
+	margin: 80px;
+	-webkit-transition: -webkit-transform 4s;
+	-moz-transition: -moz-transform 4s;
+	-o-transition: -o-transform 4s;
+	transition: transform 4s;
+
+	 }
+	 .r:hover {
+	-webkit-transform: rotate(360deg) scale(2, 2);
+	-moz-transform: rotate(360deg) scale(2, 2);
+	-o-transform: rotate(360deg) scale(2, 2);
+	transform: rotate(360deg) scale(2, 2);
+	 }
+

@@ -1,0 +1,102 @@
+
+#header{
+	 border: 2px solid black;
+	 width: 1450px;
+	 height:330px;
+	 background-image: url('../images/al.jpg');
+	 direction:rtl;
+	 border-radius:5px 5px 5px 5px;
+}
+.main{
+      margin:0 auto;
+	  border: 1px solid black;
+	  width:  1450px;
+	  height:300px;
+	  margin-top:5px;
+      padding:7px;
+ }
+.menu{
+     border: 2px solid black;
+	 width:1435px;
+	 height:270px;
+	 background-color:#000;
+	 padding:7px;
+	 margin-top:7px;
+	 margin-bottom:7px;
+}
+
+
+
+h2{
+	font-size:110px;
+	position:relative;
+	text-align: left;
+	text-shadow: 20px -5px 15px rgb(62, 27, 27);
+	margin-top:210px;
+	padding-left:90px;
+	background: -webkit-gradient(
+	linear, left top, right bottom,
+	color-stop(15%, gray), color-stop(50%, white),
+	color-stop(75%, gray) );
+	background: -moz-linear-gradient(
+	top left, gray 25%, white 50%, gray 65% );
+	background: linear-gradient(
+	45deg, gray 25%, white 50%, gray 65% );
+}
+
+ 
+.cont{
+     background-color:#000;
+	 border: 1px solid black;
+	 width:  1450px;
+	 height:660px;
+ } 
+ 
+ .text{
+     background-color:#9c8d8d;
+     border: 3px solid #000;
+	 width:840px;
+	 height:550px;
+	 float:right;
+	 direction:rtl;
+	 margin:8px;
+	 padding:20px;
+	 border-bottom-right-radius:15%;
+	 border-bottom-left-radius:15%;
+	 border-top-right-radius:15%;
+	 border-top-left-radius:15%;
+	 background: -webkit-gradient(
+	 linear, left top, right bottom,
+	 color-stop(15%, pink), color-stop(50%, white),
+	 color-stop(75%, pink) );
+	 background: -moz-linear-gradient(
+	 top left, pink 15%, white 50%, pink 75% );
+	 background: linear-gradient(
+	 45deg, pink 15%, white 50%, pink 75% );
+ }
+ .imgd{
+	 width: 500px;
+	 height:570px;
+	 margin:6px;
+	 border-bottom-right-radius:15%;
+	 border-bottom-left-radius:15%;
+	 border-top-right-radius:15%;
+	 border-top-left-radius:15%;	 
+ }
+ .title{
+	padding:10px;
+	color:#b11632;
+	font-family:"Times New Roman",Times,Serif;
+	font-size:36px;
+	font-weight:bold;
+	text-shadow::#bbccbb 2px 2px; 
+ 
+ }
+ 
+.details {
+	padding:5px,5px ;
+	font-family:"Times New Roman",Times,Serif;
+	font-size:32px;
+	color:#000;
+}
+  

@@ -1,0 +1,94 @@
+		
+h1{
+ 
+  background-size :cover;
+  background-position:center;
+	background-color:#9c8d8d; 
+	border: 2px solid #b11632;
+	align:right ;
+	height:100px;
+	background: -webkit-gradient(
+	linear, left top, right bottom,
+	color-stop(15%, gray), color-stop(50%, white),
+	color-stop(75%, gray) );
+	background: -moz-linear-gradient(
+	top left, gray 15%, white 50%, gray 75% );
+	background: linear-gradient(
+	45deg, gray 15%, white 50%, gray 75% );
+}
+
+ 
+
+select,input{
+	
+	width:165px;
+	position:relative;
+	float:left;
+	list-style-type:none;
+	font-size:25px;
+	background:#f5bad7;
+	border:1px solid #b11632;
+	padding:10px;
+	margin-left:100px;
+	margin-right:40px;
+	margin-bottom:30px;
+	text-align: center;
+	background: -webkit-gradient(
+	linear, left top, right bottom,
+	color-stop(15%, pink), color-stop(50%, white),
+	color-stop(75%, pink) );
+	background: -moz-linear-gradient(
+	top left, pink 15%, white 50%, pink 75% );
+	background: linear-gradient(
+	45deg, pink 15%, white 50%, pink 75% );
+	
+		}
+
+select:hover,input:hover{
+	background:#b49bb5;
+	color: #b11632;
+	padding:8px;
+	background: -webkit-gradient(
+   linear, left top, right bottom,
+	color-stop(15%, plum), color-stop(50%, white),
+	color-stop(75%, plum) );
+	background: -moz-linear-gradient(
+	 top left, plum 15%, white 50%, plum 75% );
+	background: linear-gradient(
+	45deg, plum 15%, white 50%, plum 75% );
+	
+		}
+		#mo{
+ border: 3px solid #b11632;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 150px;
+    -moz-border-radius: 800px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+
+}
+ 
+marquee{
+	border:2px solid #b11632;
+	font-size:30px;
+	margin-top:6px;
+	font-family :Algerian;
+	background: -webkit-gradient(
+    linear, left top, right bottom,
+	color-stop(15%, plum), color-stop(50%, white),
+	color-stop(75%, plum) );
+	background: -moz-linear-gradient(
+	top left, plum 15%, white 50%, plum 75% );
+	background: linear-gradient(
+	45deg, plum 15%, white 50%, plum 75% );
+	
+	}
+	 .menu{
+	 width:1435px;
+	 height:210px;
+	 padding:7px;
+	 margin-top:7px;
+	 margin-bottom:5px;
+}

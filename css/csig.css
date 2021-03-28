@@ -1,0 +1,24 @@
+
+	div
+
+	{
+	font-family:Algerian;
+	text-shadow:-4px 5px 6px dimgrey;
+	color:lightsteelblue;
+	width: 1010px;
+	 height: 800px;
+	 border: 3px solid gray;
+	 padding: 5px 20px;
+	background: -webkit-gradient(
+	linear, left top, right bottom,
+	color-stop(15%, white), color-stop(50%,gray),
+	color-stop(75%,black) );
+	background: -moz-linear-gradient(
+	top left, white 15%,plum 50%,purple 75% );
+	background: linear-gradient(
+	45deg, white 15%, black 50%, gray 75% );}
+	marquee {font-family:Castellar;
+	text-shadow:-4px 5px 6px dimgrey;
+	color:purple;
+	}
+ 

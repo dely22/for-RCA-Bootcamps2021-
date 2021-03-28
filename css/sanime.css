@@ -1,0 +1,112 @@
+
+body {
+	background-color:#000;
+	direction:ltr;
+	margin: 5px 0px 0px 0px;
+	padding-right:50px;
+	padding-left:50px;
+	}
+	A{
+			 font-family :Algerian;
+	}
+
+
+.link-to {
+	font-family:Tahoma;
+	font-size:12px;
+	}
+.b-s {
+	border-bottom:1px solid #A9A9A9;
+	border-right:1px solid #A9A9A9
+	}
+
+.hr {
+	color: #A9A9A9;
+	width: 75%
+	}
+.tahoma11 
+{font:11px Tahoma;
+}
+
+	
+	#a{
+	font:25px Tahoma;	
+	color:#b11632;
+	FONT-WEIGHT: bold; 	
+	 font-family :Algerian;
+	}
+.tt{ 
+ border:solid #000 2px;
+ height:630;
+ width:530;
+ }
+.B {
+	FONT-FAMILY: Tahoma, Arial, MS Sans Serif;
+	FONT-SIZE: 11px;
+	COLOR: #FFFFCC; 
+	FONT-WEIGHT: bold; 
+	TEXT-ALIGN: center
+	}
+.l{
+	float:right
+	}
+li{
+	margin-bottom:.2em;
+	list-style:none;
+	text-align:center;
+	font-size::30px;
+	}
+
+
+ /*
+	a.lt:link {
+	color: #FFFFFF;
+	text-decoration: none
+	}
+	#navlist{
+	margin-right:0;
+	padding-right:0;
+	list-style: none;
+	font-family:MS Sans Serif, Tahoma;
+	text-align:center;
+	font-size::30px;
+	}
+#navlist li{
+	padding-right:15px;
+	
+	background-repeat:no-repeat;
+	background-position: center right;
+	font-family:MS Sans Serif, Tahoma;
+	text-align:center;
+	font-size::30px;
+	}
+.Q {
+	FONT-FAMILY: MS Sans Serif, Tahoma, Arial;
+	FONT-SIZE: 11px;
+	}
+a.lt:visited {
+	color: #FFFFFF;
+	text-decoration: none
+	}
+a.lt:hover {
+	color: #FFFFFF;
+	text-decoration: underline
+	}
+a.lt:active {
+	color: #FFFF00;
+	text-decoration: none
+	}
+	.headline {
+	font-family:ARIAL;
+	font-size:16px;
+	FONT-WEIGHT: bold
+	}
+.headline2 {
+	font-family:Tahoma;
+	font-size:11px;
+	FONT-WEIGHT: bold;
+	background-color:white
+	}
+
+	*/
+ 
